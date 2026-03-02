@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        APP_SERVER = 172.31.31.8
+        APP_SERVER = "ec2-user@172.31.31.8"
     }
 
     triggers {
